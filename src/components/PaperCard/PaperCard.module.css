@@ -1,0 +1,22 @@
+.base {
+    background-color: white;
+    box-shadow: 0px 2px 2px 1px rgba(234, 234, 234, 1);
+    margin: 60px auto 0 auto;
+    border-radius: 8px;
+}
+
+.small {
+    composes: base;
+    padding: 30px;
+    width: 180px;
+}
+.medium {
+    composes: base;
+    padding: 45px;
+    width: 360px;
+}
+.big {
+    composes: base;
+    padding: 45px;
+     width: 480px;
+ }

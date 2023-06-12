@@ -1,8 +1,8 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import { ReactNode } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksandFont = Quicksand({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App Template",
@@ -17,7 +17,7 @@ type RootLayoutProps = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={quicksandFont.className}>{children}</body>
     </html>
   );
 };
